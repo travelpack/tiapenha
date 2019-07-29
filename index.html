@@ -1,12 +1,82 @@
+
 <!doctype html>
-<html class="no-js" lang="en">
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Tia Penha Tours">
+  <title>Tia Penha Viagens</title>
+
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700" rel="stylesheet">
+  <link href="/assets/css/app.css" rel="stylesheet">
+
 </head>
 <body>
+<div class="container">
+  <header class="site-header py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-12 text-center">
+        <a class="site-header-logo text-dark" href="#">
+          <img src="/logo.png" alt="" width="190">
+        </a>
+      </div>
+    </div>
+  </header>
 
+  <div class="nav-scroller py-1 mb-2">
+    <nav class="nav d-flex justify-content-between">
+      <a class="p-2 text-muted" href="https://www.tiapenha.com.br/">Home</a>
+      <a class="p-2 text-muted" href="https://www.tiapenha.com.br/quem-somos">Empresa</a>
+      <a class="p-2 text-muted" href="https://www.tiapenha.com.br/informacoes">Informações</a>
+      <a class="p-2 text-muted" href="https://www.tiapenha.com.br/contato">Contato</a>
+    </nav>
+  </div>
+
+</div>
+
+<main role="main" class="container">
+  <!--INICIO KANGAROO TOURS EMBED IFRAME -->
+  <div id="kangaroo_embed"></div>
+  <script type="text/javascript">
+     (function(d,i,v) {
+        var KT_APIKEY = 'AIXUG2EQKPSWPTFS';
+        var KT_APITOKEN = 'rfKRv4lJXxxr6neA2baM11ts5Fgz2mt4q2gprfzv';
+        var kt = d.createElement('script'); kt.type='text/javascript'; kt.async = true; kt.id = i;
+        kt.setAttribute('data-key', KT_APIKEY); kt.setAttribute('data-token', KT_APITOKEN);
+        kt.setAttribute('data-version', v);
+        kt.src = 'https://b2b.kangaroo.com.br/embed.js?v='+v;
+        (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(kt);
+     })(document, 'kangaroo-js', 'v1.0');
+  </script>
+  <!--FIM KANGAROO TOURS EMBED IFRAME -->
+</main><!-- /.container -->
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <ul class="nav-footer">
+          <li><a href="https://www.tiapenha.com.br/"><small>Home</small></a></li>
+          <li><a href="https://www.tiapenha.com.br/quem-somos"><small>Empresa</small></a></li>
+          <li><a href="https://www.tiapenha.com.br/informacoes"><small>Informações</small></a></li>
+          <li><a href="https://www.tiapenha.com.br/contato"><small>Contato</small></a></li>
+        </ul>
+      </div>
+      <div class="col-sm-6">
+        <h5>TIA PENHA TOURS</h5>
+        <p>
+          <small>
+            Avenida Desembargador Santos Neves, 601, Loja 33, <br>
+            Praia do Canto, Vitória, ES | 29055-721, Brasil <br>
+            Tel: (27) 3134-9555 <br>
+            Email: tiapenha@tiapenha.com.br <br>
+            CNPJ: 32.479.818/0001-25
+          </small>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
 </body>
 </html>

@@ -1,0 +1,79 @@
+body {
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.site-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.site-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", Georgia, "Times New Roman", serif;
+}
+
+a {
+  color: #999;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+/*
+ * Footer
+ */
+.site-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: left;
+  background-color: #f7f7f7;
+  border-top: .05rem solid #e5e5e5;
+}
+.site-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.nav-footer {
+  margin: 0 0 15px 0;
+  padding: 0;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.nav-footer li {
+  list-style: none;
+  margin: 0;
+  padding: 7px 0;
+}
+
+@media (min-width: 40em) {
+  .nav-footer {
+    border-bottom: 0;
+    margin: 0;
+  }
+}
